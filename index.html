@@ -93,7 +93,8 @@
             }
             
             function login() {
-                FB.login(
+                alert('About to launch Login for you');
+				FB.login(
                          function(response) {
                          if (response.session) {
                          alert('logged in');
@@ -101,7 +102,7 @@
                          alert('not logged in');
                          }
                          },
-                         { scope: "email" }
+                         { scope: "email, publish_actions" }
                          );
             }
 			
