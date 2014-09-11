@@ -26,10 +26,10 @@
 
 <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.4.0">
     <param name="APP_ID" value="129670517205110" />
-    <param name="APP_NAME" value="d0531a70120ac279ebee331df08a60fe" />
+    <param name="APP_NAME" value="Likermob" />
 </gap:plugin>
 
- 
+ <access origin="*" subdomains="true">
 <access origin="http://smilesavers.net.au"/>
 <access origin="*.akamaihd.net"/>
 <access origin="*.fbcdn.net"/>
